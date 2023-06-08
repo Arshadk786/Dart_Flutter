@@ -22,11 +22,13 @@ void main() {
   // lname = "matthew"; this will not work bcoz const cannot be changed after assigned.
 
   // 5. datatype? Variable
-  int? num1; 
+  int? num1;
+  print(num1);
   // ? is used to make variable nullable which means it can be null or int and it can be assigned later or not.
 
   // 6. late Variable
   late String name1;
+  name1 = "whatever";
+  print(name1);
   // late is used to make variable nullable which means it can be null or int and it can be assigned later or not.
-
 }
